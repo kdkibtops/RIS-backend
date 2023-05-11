@@ -1,0 +1,45 @@
+
+*******************************************Start Of Error*******************************************
+*******************************@2023-05-07T14:01:37*******************************
+
+Client Error => Responded with status code: (400) - Bad Request
+Request origin: 127.0.0.1/patients/delete
+Request: {"patients":{"mrn":"9996","updated_by":"kdkibtops"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imtka2lidG9wcyIsImlhdCI6MTY4MzQ1NzI5NywiZXhwIjoxNjgzNDU5MDk3fQ.qpOxrK2CuOylZAZNjSvlWVfdcAjl3cmKg6Iy0yaKftw","currentUser":"kdkibtops"}
+Name: error @  2023-05-07T14:01:37
+Message: update or delete on table "patients" violates foreign key constraint "orders_mrn_fkey" on table "orders"
+Stack: error: update or delete on table "patients" violates foreign key constraint "orders_mrn_fkey" on table "orders"
+    at Parser.parseErrorMessage (E:\My_projects\RadAssist\Backend\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (E:\My_projects\RadAssist\Backend\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (E:\My_projects\RadAssist\Backend\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (E:\My_projects\RadAssist\Backend\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Data retrieved: {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imtka2lidG9wcyIsImlhdCI6MTY4MzQ1NzI5NywiZXhwIjoxNjgzNDU5MDk3fQ.qpOxrK2CuOylZAZNjSvlWVfdcAjl3cmKg6Iy0yaKftw","data":{"message":"update or delete on table \"patients\" violates foreign key constraint \"orders_mrn_fkey\" on table \"orders\""},"action":"Failed"}
+*******************************************End Of Error*******************************************
+
+		
+*******************************************Start Of Error*******************************************
+*******************************@2023-05-07T14:04:24*******************************
+
+Client Error => Responded with status code: (400) - Bad Request
+Request origin: 127.0.0.1/patients/delete
+Request: {"patients":{"mrn":"9996","updated_by":"kdkibtops"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imtka2lidG9wcyIsImlhdCI6MTY4MzQ1NzQ2NCwiZXhwIjoxNjgzNDU5MjY0fQ.0RAUfYLtoTnNSoRNwlfS3P7tyG1JDNp8lwkELsgiNWA","currentUser":"kdkibtops"}
+Name: error @  2023-05-07T14:04:24
+Message: update or delete on table "patients" violates foreign key constraint "orders_mrn_fkey" on table "orders"
+Stack: error: update or delete on table "patients" violates foreign key constraint "orders_mrn_fkey" on table "orders"
+    at Parser.parseErrorMessage (E:\My_projects\RadAssist\Backend\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (E:\My_projects\RadAssist\Backend\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (E:\My_projects\RadAssist\Backend\node_modules\pg-protocol\dist\parser.js:39:38)
+    at Socket.<anonymous> (E:\My_projects\RadAssist\Backend\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+Data retrieved: {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imtka2lidG9wcyIsImlhdCI6MTY4MzQ1NzQ2NCwiZXhwIjoxNjgzNDU5MjY0fQ.0RAUfYLtoTnNSoRNwlfS3P7tyG1JDNp8lwkELsgiNWA","data":{"message":"update or delete on table \"patients\" violates foreign key constraint \"orders_mrn_fkey\" on table \"orders\""},"action":"Failed"}
+*******************************************End Of Error*******************************************
+
+		

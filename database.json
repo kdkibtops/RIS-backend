@@ -1,0 +1,30 @@
+{
+    "Dev": {
+        "driver": "pg",
+        "host": "127.0.0.1",
+        "database": "reportingassistdb_test",
+        "user": "kdkibtops",
+        "password": "254307830"
+    },
+    "Production": {
+        "driver": "pg",
+        "host": "127.0.0.1",
+        "database": "reportingassistdb",
+        "user": "kdkibtops",
+        "password": "254307830"
+    },
+    "dbmigrateconnect":{
+        "driver": "pg",
+        "host": "127.0.0.1",
+        "database": "postgres",
+        "user": "kdkibtops",
+        "password": "254307830"   
+    },
+    "dev":{
+        "driver": "pg",
+        "host": "127.0.0.1",
+        "database": "reportingassistdb_test",
+        "user": "kdkibtops",
+        "password": "254307830"   
+    }
+}

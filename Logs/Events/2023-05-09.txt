@@ -1,0 +1,650 @@
+
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:25:27*******************************
+
+Successful => Responded with status code: (201) - Created new content
+Request origin: 127.0.0.1/users/insert
+Request: {"users":{"user_id":"789","username":"shady","full_name":"shady mahmoud","user_role":"Staff","job":"Radiologist","email":"shadymahmoud94@gmail.com","user_password":"****"}}
+@  2023-05-09T10:25:27
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+	
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:26:14*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"users":{"role":"radiologist","user_password":"****"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3MTc0LCJleHAiOjE2ODM2MTg5NzR9.dM3A-iJDo7ciTF-rL216IaFgOqgmzy4HpPJCdV3fLOk","currentUser":"shady"}
+@  2023-05-09T10:26:14
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:26:14*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/studies/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3MTc0LCJleHAiOjE2ODM2MTg5NzR9.dM3A-iJDo7ciTF-rL216IaFgOqgmzy4HpPJCdV3fLOk","currentUser":"shady","studies":{"updated_by":"shady"}}
+@  2023-05-09T10:26:14
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:26:14*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/patients/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3MTc0LCJleHAiOjE2ODM2MTg5NzR9.dM3A-iJDo7ciTF-rL216IaFgOqgmzy4HpPJCdV3fLOk","currentUser":"shady","patients":{"registered_by":"shady"}}
+@  2023-05-09T10:26:14
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:26:14*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"users":{"role":"radiologist","user_password":"****"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3MTc0LCJleHAiOjE2ODM2MTg5NzR9.dM3A-iJDo7ciTF-rL216IaFgOqgmzy4HpPJCdV3fLOk","currentUser":"shady"}
+@  2023-05-09T10:26:14
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:26:14*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/studies/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3MTc0LCJleHAiOjE2ODM2MTg5NzR9.dM3A-iJDo7ciTF-rL216IaFgOqgmzy4HpPJCdV3fLOk","currentUser":"shady","studies":{"updated_by":"shady"}}
+@  2023-05-09T10:26:14
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:26:14*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/patients/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3MTc0LCJleHAiOjE2ODM2MTg5NzR9.dM3A-iJDo7ciTF-rL216IaFgOqgmzy4HpPJCdV3fLOk","currentUser":"shady","patients":{"registered_by":"shady"}}
+@  2023-05-09T10:26:14
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:26:25*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3MTg1LCJleHAiOjE2ODM2MTg5ODV9.UVcWFAa9l69nv5J2JU-Wp5sEuH_phefC_obajWT4Bi8","currentUser":"shady","orders":{"updated_by":"shady"}}
+@  2023-05-09T10:26:25
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:26:25*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3MTg1LCJleHAiOjE2ODM2MTg5ODV9.UVcWFAa9l69nv5J2JU-Wp5sEuH_phefC_obajWT4Bi8","currentUser":"shady","orders":{"updated_by":"shady"}}
+@  2023-05-09T10:26:25
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:27:54*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3Mjc0LCJleHAiOjE2ODM2MTkwNzR9.qxNtiB5hi0v48Jr853ohUtzrigRHMLPxzFCrbtOag_c","currentUser":"shady"}
+@  2023-05-09T10:27:54
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:27:54*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3Mjc0LCJleHAiOjE2ODM2MTkwNzR9.qxNtiB5hi0v48Jr853ohUtzrigRHMLPxzFCrbtOag_c","currentUser":"shady"}
+@  2023-05-09T10:27:54
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:29:30*******************************
+
+Successful => Responded with status code: (201) - Created new content
+Request origin: 127.0.0.1/patients/insert
+Request: {"patients":{"mrn":"95864","national_id":"27812128372943","patient_name":"Mohamed Fathy","dob":"1978-12-12","age":"44","gender":"male","contacts":"01002651875","email":"test@test.com","registered_by":"shady"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3MzcwLCJleHAiOjE2ODM2MTkxNzB9.kRRowhF4z29CBZPpRE4tFgX_ZOr6KszkZBXIeeBtvpQ","currentUser":"shady"}
+@  2023-05-09T10:29:30
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+	
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:29:42*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3MzgyLCJleHAiOjE2ODM2MTkxODJ9.bX6dl8jydwnZkIcsbmNheSWey9E-u5nV3mt_FxpEDWo","currentUser":"shady","orders":{"updated_by":"shady"}}
+@  2023-05-09T10:29:42
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:29:42*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3MzgyLCJleHAiOjE2ODM2MTkxODJ9.bX6dl8jydwnZkIcsbmNheSWey9E-u5nV3mt_FxpEDWo","currentUser":"shady","orders":{"updated_by":"shady"}}
+@  2023-05-09T10:29:42
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:30:19*******************************
+
+Successful => Responded with status code: (201) - Created new content
+Request origin: 127.0.0.1/orders/insert
+Request: {"orders":{"order_id":"67831","mrn":"95864","patient_name":"Mohamed Fathy","study_code":"radct027","study":"radct027","o_date":"2023-05-12","o_status":"Schedueled","radiologist":"shady mahmoud","report_status":"Pending","updated_by":"shady"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3NDE5LCJleHAiOjE2ODM2MTkyMTl9.fRs6RaXJQigHf4nEsSi6EmMEzokyifgrkxT1LIDBYkc","currentUser":"shady"}
+@  2023-05-09T10:30:19
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+	
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:30:31*******************************
+
+Successful => Responded with status code: (200) - OK , Content Updated
+Request origin: 127.0.0.1/orders/insert
+Request: {"orders":{"order_id":"67831","mrn":"95864","patient_name":"Mohamed Fathy","study_code":"radct027","study":"radct027","o_date":"2023-05-12","o_status":"Completed","radiologist":"shady mahmoud","report_status":"Completed","updated_by":"shady"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3NDMxLCJleHAiOjE2ODM2MTkyMzF9.gLtWy5PpjcfpGG1ZMPLm3mHeEa6hCYHmgOCESq3rejE","currentUser":"shady"}
+@  2023-05-09T10:30:31
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+	
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:31:27*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3NDg3LCJleHAiOjE2ODM2MTkyODd9.at_g0YHRfliwXR0PGwCGqXq7vMU1ch0N_N0hUvCis-4","currentUser":"shady","orders":{"updated_by":"shady"}}
+@  2023-05-09T10:31:27
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:31:27*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE3NDg3LCJleHAiOjE2ODM2MTkyODd9.at_g0YHRfliwXR0PGwCGqXq7vMU1ch0N_N0hUvCis-4","currentUser":"shady","orders":{"updated_by":"shady"}}
+@  2023-05-09T10:31:27
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:46:40*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDAwLCJleHAiOjE2ODM2MjAyMDB9.JCPr05h0Tj_CrTvzI6ameSsXz_iErBV8sZ2IvciwyrY","currentUser":"shady","orders":{"updated_by":"shady"}}
+@  2023-05-09T10:46:40
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:46:40*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDAwLCJleHAiOjE2ODM2MjAyMDB9.JCPr05h0Tj_CrTvzI6ameSsXz_iErBV8sZ2IvciwyrY","currentUser":"shady","orders":{"updated_by":"shady"}}
+@  2023-05-09T10:46:40
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:46:44*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"users":{"role":"radiologist","user_password":"****"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDA0LCJleHAiOjE2ODM2MjAyMDR9.0mwqhXYW_I3A3xCGU4R0IkxmI9NJgS46Jv-gDu-I9aA","currentUser":"shady"}
+@  2023-05-09T10:46:44
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:46:44*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/studies/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDA0LCJleHAiOjE2ODM2MjAyMDR9.0mwqhXYW_I3A3xCGU4R0IkxmI9NJgS46Jv-gDu-I9aA","currentUser":"shady","studies":{"updated_by":"shady"}}
+@  2023-05-09T10:46:44
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:46:44*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/patients/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDA0LCJleHAiOjE2ODM2MjAyMDR9.0mwqhXYW_I3A3xCGU4R0IkxmI9NJgS46Jv-gDu-I9aA","currentUser":"shady","patients":{"registered_by":"shady"}}
+@  2023-05-09T10:46:44
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:46:44*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/patients/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDA0LCJleHAiOjE2ODM2MjAyMDR9.0mwqhXYW_I3A3xCGU4R0IkxmI9NJgS46Jv-gDu-I9aA","currentUser":"shady","patients":{"registered_by":"shady"}}
+@  2023-05-09T10:46:44
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:46:44*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/studies/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDA0LCJleHAiOjE2ODM2MjAyMDR9.0mwqhXYW_I3A3xCGU4R0IkxmI9NJgS46Jv-gDu-I9aA","currentUser":"shady","studies":{"updated_by":"shady"}}
+@  2023-05-09T10:46:44
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:46:44*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"users":{"role":"radiologist","user_password":"****"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDA0LCJleHAiOjE2ODM2MjAyMDR9.0mwqhXYW_I3A3xCGU4R0IkxmI9NJgS46Jv-gDu-I9aA","currentUser":"shady"}
+@  2023-05-09T10:46:44
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:47:52*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"users":{"role":"radiologist","user_password":"****"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDcyLCJleHAiOjE2ODM2MjAyNzJ9.oNKm8Wf2RupGQ6CQTFrI0Y1mc9SHjcdXHu3EOOeyxdg","currentUser":"shady"}
+@  2023-05-09T10:47:52
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:47:52*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/studies/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDcyLCJleHAiOjE2ODM2MjAyNzJ9.oNKm8Wf2RupGQ6CQTFrI0Y1mc9SHjcdXHu3EOOeyxdg","currentUser":"shady","studies":{"updated_by":"shady"}}
+@  2023-05-09T10:47:52
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:47:52*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/patients/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDcyLCJleHAiOjE2ODM2MjAyNzJ9.oNKm8Wf2RupGQ6CQTFrI0Y1mc9SHjcdXHu3EOOeyxdg","currentUser":"shady","patients":{"registered_by":"shady"}}
+@  2023-05-09T10:47:52
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:47:52*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"users":{"role":"radiologist","user_password":"****"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDcyLCJleHAiOjE2ODM2MjAyNzJ9.oNKm8Wf2RupGQ6CQTFrI0Y1mc9SHjcdXHu3EOOeyxdg","currentUser":"shady"}
+@  2023-05-09T10:47:52
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:47:52*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/patients/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDcyLCJleHAiOjE2ODM2MjAyNzJ9.oNKm8Wf2RupGQ6CQTFrI0Y1mc9SHjcdXHu3EOOeyxdg","currentUser":"shady","patients":{"registered_by":"shady"}}
+@  2023-05-09T10:47:52
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:47:52*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/studies/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NDcyLCJleHAiOjE2ODM2MjAyNzJ9.oNKm8Wf2RupGQ6CQTFrI0Y1mc9SHjcdXHu3EOOeyxdg","currentUser":"shady","studies":{"updated_by":"shady"}}
+@  2023-05-09T10:47:52
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:50:29*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"users":{"role":"radiologist","user_password":"****"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NjI5LCJleHAiOjE2ODM2MjA0Mjl9.8LIa7JIfDOJlXUzjGHtiVoxPBllQ1oTqBse_XNnb5YY","currentUser":"shady"}
+@  2023-05-09T10:50:29
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:50:29*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/studies/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NjI5LCJleHAiOjE2ODM2MjA0Mjl9.8LIa7JIfDOJlXUzjGHtiVoxPBllQ1oTqBse_XNnb5YY","currentUser":"shady","studies":{"updated_by":"shady"}}
+@  2023-05-09T10:50:29
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:50:29*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/patients/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NjI5LCJleHAiOjE2ODM2MjA0Mjl9.8LIa7JIfDOJlXUzjGHtiVoxPBllQ1oTqBse_XNnb5YY","currentUser":"shady","patients":{"registered_by":"shady"}}
+@  2023-05-09T10:50:29
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:50:29*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"users":{"role":"radiologist","user_password":"****"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NjI5LCJleHAiOjE2ODM2MjA0Mjl9.8LIa7JIfDOJlXUzjGHtiVoxPBllQ1oTqBse_XNnb5YY","currentUser":"shady"}
+@  2023-05-09T10:50:29
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:50:29*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/patients/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NjI5LCJleHAiOjE2ODM2MjA0Mjl9.8LIa7JIfDOJlXUzjGHtiVoxPBllQ1oTqBse_XNnb5YY","currentUser":"shady","patients":{"registered_by":"shady"}}
+@  2023-05-09T10:50:29
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:50:29*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/studies/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NjI5LCJleHAiOjE2ODM2MjA0Mjl9.8LIa7JIfDOJlXUzjGHtiVoxPBllQ1oTqBse_XNnb5YY","currentUser":"shady","studies":{"updated_by":"shady"}}
+@  2023-05-09T10:50:29
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:50:34*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NjM0LCJleHAiOjE2ODM2MjA0MzR9.5H94lFMfpIGPI83sVnmOxxsPbbpR80bKZnmFh4u-6rw","currentUser":"shady"}
+@  2023-05-09T10:50:34
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:50:34*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NjM0LCJleHAiOjE2ODM2MjA0MzR9.5H94lFMfpIGPI83sVnmOxxsPbbpR80bKZnmFh4u-6rw","currentUser":"shady"}
+@  2023-05-09T10:50:34
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:50:36*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NjM2LCJleHAiOjE2ODM2MjA0MzZ9.qKVpM5s_RgNmVgWANumat3WhLe90yBWrAobkPrah2ug","currentUser":"shady","orders":{"updated_by":"shady"}}
+@  2023-05-09T10:50:36
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:50:36*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNoYWR5IiwiaWF0IjoxNjgzNjE4NjM2LCJleHAiOjE2ODM2MjA0MzZ9.qKVpM5s_RgNmVgWANumat3WhLe90yBWrAobkPrah2ug","currentUser":"shady","orders":{"updated_by":"shady"}}
+@  2023-05-09T10:50:36
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:52:21*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/patients/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxODc0MSwiZXhwIjoxNjgzNjIwNTQxfQ._zW_88AZ03cw2P4yzEvxQ8QZvOoGV7EcFh87iPT6h-o","currentUser":"123","patients":{"registered_by":"123"}}
+@  2023-05-09T10:52:21
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:52:21*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/studies/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxODc0MSwiZXhwIjoxNjgzNjIwNTQxfQ._zW_88AZ03cw2P4yzEvxQ8QZvOoGV7EcFh87iPT6h-o","currentUser":"123","studies":{"updated_by":"123"}}
+@  2023-05-09T10:52:21
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:52:21*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"users":{"role":"radiologist","user_password":"****"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxODc0MSwiZXhwIjoxNjgzNjIwNTQxfQ._zW_88AZ03cw2P4yzEvxQ8QZvOoGV7EcFh87iPT6h-o","currentUser":"123"}
+@  2023-05-09T10:52:21
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:52:21*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/studies/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxODc0MSwiZXhwIjoxNjgzNjIwNTQxfQ._zW_88AZ03cw2P4yzEvxQ8QZvOoGV7EcFh87iPT6h-o","currentUser":"123","studies":{"updated_by":"123"}}
+@  2023-05-09T10:52:21
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:52:21*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/patients/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxODc0MSwiZXhwIjoxNjgzNjIwNTQxfQ._zW_88AZ03cw2P4yzEvxQ8QZvOoGV7EcFh87iPT6h-o","currentUser":"123","patients":{"registered_by":"123"}}
+@  2023-05-09T10:52:21
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:52:21*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"users":{"role":"radiologist","user_password":"****"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxODc0MSwiZXhwIjoxNjgzNjIwNTQxfQ._zW_88AZ03cw2P4yzEvxQ8QZvOoGV7EcFh87iPT6h-o","currentUser":"123"}
+@  2023-05-09T10:52:21
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:52:21*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxODc0MSwiZXhwIjoxNjgzNjIwNTQxfQ._zW_88AZ03cw2P4yzEvxQ8QZvOoGV7EcFh87iPT6h-o","currentUser":"123","orders":{"updated_by":"123"}}
+@  2023-05-09T10:52:21
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T10:52:21*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxODc0MSwiZXhwIjoxNjgzNjIwNTQxfQ._zW_88AZ03cw2P4yzEvxQ8QZvOoGV7EcFh87iPT6h-o","currentUser":"123","orders":{"updated_by":"123"}}
+@  2023-05-09T10:52:21
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T11:02:47*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/patients/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxOTM2NywiZXhwIjoxNjgzNjIxMTY3fQ.QUAR66IpsnjLdn_hrMQG0vzrSD9XT49nohby9Wx2xOY","currentUser":"123","patients":{"registered_by":"123"}}
+@  2023-05-09T11:02:47
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T11:02:47*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/studies/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxOTM2NywiZXhwIjoxNjgzNjIxMTY3fQ.QUAR66IpsnjLdn_hrMQG0vzrSD9XT49nohby9Wx2xOY","currentUser":"123","studies":{"updated_by":"123"}}
+@  2023-05-09T11:02:47
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T11:02:47*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"users":{"role":"radiologist","user_password":"****"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxOTM2NywiZXhwIjoxNjgzNjIxMTY3fQ.QUAR66IpsnjLdn_hrMQG0vzrSD9XT49nohby9Wx2xOY","currentUser":"123"}
+@  2023-05-09T11:02:47
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T11:02:47*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/users/index
+Request: {"users":{"role":"radiologist","user_password":"****"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxOTM2NywiZXhwIjoxNjgzNjIxMTY3fQ.QUAR66IpsnjLdn_hrMQG0vzrSD9XT49nohby9Wx2xOY","currentUser":"123"}
+@  2023-05-09T11:02:47
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T11:02:47*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/studies/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxOTM2NywiZXhwIjoxNjgzNjIxMTY3fQ.QUAR66IpsnjLdn_hrMQG0vzrSD9XT49nohby9Wx2xOY","currentUser":"123","studies":{"updated_by":"123"}}
+@  2023-05-09T11:02:47
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T11:02:47*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/patients/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxOTM2NywiZXhwIjoxNjgzNjIxMTY3fQ.QUAR66IpsnjLdn_hrMQG0vzrSD9XT49nohby9Wx2xOY","currentUser":"123","patients":{"registered_by":"123"}}
+@  2023-05-09T11:02:47
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T11:03:15*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxOTM5NSwiZXhwIjoxNjgzNjIxMTk1fQ.9PqzsKbt-D5Rx74dHARwYfcJH1VRYaRR-i5jBhbSQDk","currentUser":"123","orders":{"updated_by":"123"}}
+@  2023-05-09T11:03:15
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T11:03:15*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/index
+Request: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxOTM5NSwiZXhwIjoxNjgzNjIxMTk1fQ.9PqzsKbt-D5Rx74dHARwYfcJH1VRYaRR-i5jBhbSQDk","currentUser":"123","orders":{"updated_by":"123"}}
+@  2023-05-09T11:03:15
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		
+*******************************************Start Of Event*******************************************
+*******************************@2023-05-09T11:04:06*******************************
+
+Successful => Responded with status code: (200) - OK, No content changed
+Request origin: 127.0.0.1/orders/delete
+Request: {"orders":{"order_id":"24897","updated_by":"123"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlhdCI6MTY4MzYxOTQ0NiwiZXhwIjoxNjgzNjIxMjQ2fQ.Q8wlFmoJIRPtRHbz9DcBrB_w4NMve_XrWKZpU7HqJaQ","currentUser":"123"}
+@  2023-05-09T11:04:06
+Data retrieved: Successful 
+*******************************************End Of Event*******************************************
+
+		

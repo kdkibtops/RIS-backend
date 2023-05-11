@@ -1,0 +1,6 @@
+{   "proxyWatch": "tsc-watch -p ./tsconfig.json --onSuccess \"node ./dist/proxyServer.js\"",
+    "primaryWatch": "tsc-watch -p ./tsconfig.json --onSuccess \"node ./dist/primaryServer.js\"",
+    "watch-all-servers": "concurrently \"tsc-watch -p ./tsconfig.json --onSuccess \"node ./dist/proxyServer.js\" \"\"tsc-watch -p ./tsconfig.json --onSuccess \"node ./dist/server.js\" \"",
+    "start": "concurrently \"npm run StartProxy\" \"npm run StartMainServer\"",
+    "StartMainServer": "node ./dist/server.js",
+}

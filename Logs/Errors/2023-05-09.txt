@@ -1,0 +1,35 @@
+
+*******************************************Start Of Error*******************************************
+*******************************@2023-05-09T10:24:14*******************************
+
+Client Error => Responded with status code: (400) - Bad Request
+Request origin: 127.0.0.1/users/insert
+Request: {"users":{"user_id":"456","username":"shady","full_name":"shady mahmoud","user_role":"Staff","job":"Radiologist","email":"shadymahmoud94@gmail.com","user_password":"****"}}
+Name: Username already present @  2023-05-09T10:24:14
+Message: Username already present in the database
+Stack: Username already present: Username already present in the database
+    at E:\My_projects\RadAssist\Backend\dist\Handlers\usersHandler.js:83:33
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\My_projects\RadAssist\Backend\dist\Handlers\usersHandler.js:28:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Data retrieved: {"accessToken":"","data":{"message":"Username is already present in database, try \"Logging in\" if registered, otherwise choose another username"},"action":"Failed"}
+*******************************************End Of Error*******************************************
+
+		
+*******************************************Start Of Error*******************************************
+*******************************@2023-05-09T10:24:23*******************************
+
+Client Error => Responded with status code: (400) - Bad Request
+Request origin: 127.0.0.1/users/insert
+Request: {"users":{"user_id":"456","username":"shady","full_name":"shady mahmoud","user_role":"Staff","job":"Radiologist","email":"shadymahmoud94@gmail.com","user_password":"****"}}
+Name: Username already present @  2023-05-09T10:24:23
+Message: Username already present in the database
+Stack: Username already present: Username already present in the database
+    at E:\My_projects\RadAssist\Backend\dist\Handlers\usersHandler.js:83:33
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\My_projects\RadAssist\Backend\dist\Handlers\usersHandler.js:28:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Data retrieved: {"accessToken":"","data":{"message":"Username is already present in database, try \"Logging in\" if registered, otherwise choose another username"},"action":"Failed"}
+*******************************************End Of Error*******************************************
+
+		
